@@ -9,6 +9,7 @@
 * zip_fit_station.py : 從郵政代碼區域的經緯度位置配對五個鄰近的空氣檢測站
 * xls_trans_to_pk.py : 將空氣檢測站資料依照地區、時間、空氣檢測數值整理成巢狀字典並存成pickle
 * patient_3y_record.py : 根據病人居住位置利用線性插值估算空氣檢測數值，並根據就診日期往回推三年（回推年數可更改），計算三年內空氣指標表現（如六項空氣指數的AQI指標最大值、最小值、平均、在各區間的天數統計等基礎統計資料）
+* patient_3y_record_psi.py : 空污指標公式改為PSI
 * record_for_township_new.py : 醫師希望能取得在疫情前及疫情間各鄉鎮市區空氣指標統計資料，因此資料區間設定自2019/01/01至2021/06/30，計算各鄉鎮市區在這兩年半間的空氣指標表現。（輸出資料的欄位與patient_3y_record.py相同）
 * record_for_township_new_psi.py : 空污指標公式改為PSI
 
