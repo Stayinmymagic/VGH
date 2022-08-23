@@ -10,13 +10,13 @@ import operator
 import pickle
 import math
 
-with open("stationList.pickle", "rb") as f:
+with open("data/stationList.pickle", "rb") as f:
     station_list = pickle.load(f)
-with open("station_location_dict.pickle", "rb") as f:
+with open("data/station_location_dict.pickle", "rb") as f:
     station_location_dict = pickle.load(f)
-with open("center_of_postcode_dict.pickle", "rb") as f:
+with open("data/center_of_postcode_dict.pickle", "rb") as f:
     center_of_postcode_dict = pickle.load(f)
-with open("location_dict.pickle", "rb") as f:
+with open("data/location_dict.pickle", "rb") as f:
     location_dict = pickle.load(f)
     
 #%%
