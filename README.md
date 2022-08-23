@@ -18,3 +18,7 @@
 * 全台灣77個空氣檢測站歷年資料
 * https://airtw.epa.gov.tw/CHT/Query/His_Data.aspx
 * 僅放上程式碼，並無提供病人資料
+
+#### 輸出資料參考
+* record_for_township_new.py 輸出各鄉鎮市區空氣指標表現：
+* https://drive.google.com/drive/folders/1DbR7UmrGLqy8MfChwMZaxprSfZv-XCKf?usp=sharing
